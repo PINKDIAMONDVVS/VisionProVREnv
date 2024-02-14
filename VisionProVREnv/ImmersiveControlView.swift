@@ -9,11 +9,18 @@ import SwiftUI
 import RealityKit
 import RealityKitContent
 
-struct ContentView: View {
+struct ImmersiveControlView: View {
+    
+    @Environment(\.openImmersiveSpace) var openImmersiveSpace
+    @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
+    
     var body: some View {
         VStack {
             Button {
                 // Do something
+                Task { await
+                openImmersiveSpace(id: "ImmersiveView")
+                }
             } label: {
                 Image(systemName: "visionpro")
             }
@@ -23,5 +30,5 @@ struct ContentView: View {
 }
 
 #Preview(windowStyle: .automatic) {
-    ContentView()
+    ImmersiveControlView()
 }

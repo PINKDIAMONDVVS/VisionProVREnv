@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		DBEB3E9B2B7D6E670040D0AA /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = DBEB3E9A2B7D6E670040D0AA /* RealityKitContent */; };
 		DBEB3E9D2B7D6E670040D0AA /* VisionProVREnvApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB3E9C2B7D6E670040D0AA /* VisionProVREnvApp.swift */; };
-		DBEB3E9F2B7D6E670040D0AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB3E9E2B7D6E670040D0AA /* ContentView.swift */; };
+		DBEB3E9F2B7D6E670040D0AA /* ImmersiveControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB3E9E2B7D6E670040D0AA /* ImmersiveControlView.swift */; };
 		DBEB3EA12B7D6E680040D0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEB3EA02B7D6E680040D0AA /* Assets.xcassets */; };
 		DBEB3EA42B7D6E680040D0AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEB3EA32B7D6E680040D0AA /* Preview Assets.xcassets */; };
+		DBEB3EAC2B7D72D60040D0AA /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB3EAB2B7D72D60040D0AA /* ImmersiveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DBEB3E952B7D6E670040D0AA /* VisionProVREnv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionProVREnv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEB3E992B7D6E670040D0AA /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		DBEB3E9C2B7D6E670040D0AA /* VisionProVREnvApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionProVREnvApp.swift; sourceTree = "<group>"; };
-		DBEB3E9E2B7D6E670040D0AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBEB3E9E2B7D6E670040D0AA /* ImmersiveControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveControlView.swift; sourceTree = "<group>"; };
 		DBEB3EA02B7D6E680040D0AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBEB3EA32B7D6E680040D0AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBEB3EA52B7D6E680040D0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEB3EAB2B7D72D60040D0AA /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				DBEB3E9C2B7D6E670040D0AA /* VisionProVREnvApp.swift */,
-				DBEB3E9E2B7D6E670040D0AA /* ContentView.swift */,
+				DBEB3E9E2B7D6E670040D0AA /* ImmersiveControlView.swift */,
 				DBEB3EA02B7D6E680040D0AA /* Assets.xcassets */,
 				DBEB3EA52B7D6E680040D0AA /* Info.plist */,
 				DBEB3EA22B7D6E680040D0AA /* Preview Content */,
+				DBEB3EAB2B7D72D60040D0AA /* ImmersiveView.swift */,
 			);
 			path = VisionProVREnv;
 			sourceTree = "<group>";
@@ -154,8 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBEB3E9F2B7D6E670040D0AA /* ContentView.swift in Sources */,
+				DBEB3E9F2B7D6E670040D0AA /* ImmersiveControlView.swift in Sources */,
 				DBEB3E9D2B7D6E670040D0AA /* VisionProVREnvApp.swift in Sources */,
+				DBEB3EAC2B7D72D60040D0AA /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
